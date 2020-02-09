@@ -7,7 +7,10 @@ namespace GitExercise
         public static string[] OptionsList = {
             "a - Add",
             "s - Subtract",
-            "m - Multiply"
+            "m - Multiply",
+            ///New Code
+            "d-Divide",
+            "sabs-Subtract Abs"
         };
 
         public static void Add(double a, double b)
@@ -15,14 +18,14 @@ namespace GitExercise
             Console.WriteLine($"{a} + {b} = {a + b}");
         }
 
-        public static void Multiply(double a, double b)
+        public static void Multiple(double a, double b)
         {
             Console.WriteLine($"{a} x {b} = {a * b}");
         }
 
-        public static void Subtract(double a, double b)
+        public static void Divide(double a, double b)
         {
-            Console.WriteLine($"{a} - {b} = {a - b}");
+            Console.WriteLine($"{a} : {b} = {a / b}");
         }
     }
 }
